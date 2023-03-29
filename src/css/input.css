@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+.lgcard {
+	@apply lg:w-[350px] lg:h-[500px];
+}
+
+.fixcontain {
+	@apply bg-gradient-to-t from-sky-200 via-sky-100 to-pink-200 lgcard w-[300px] h-[450px] rounded-md flex items-center justify-center;
+}
+
+@tailwind utilities;
+
+body {
+	font-family: "Poppins";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background: #282a3a;
+	scroll-behavior: smooth;
+}
